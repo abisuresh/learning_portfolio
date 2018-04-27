@@ -1,0 +1,116 @@
+
+body {
+	/* background: blue; */
+	background-image:url("../bluesky.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: auto;
+	font-size: 100%;
+  font-family: arial, sans-serif;
+	color: black;
+
+}
+
+h1{
+  font-family: century, serif;
+	font-weight: bold;
+  text-align: right;
+  padding-right: 2%;
+
+}
+
+h3{
+  text-align: center;
+}
+
+.horizontal {
+	display: flex;
+	flex-direction: row;
+}
+
+@media screen and (min-width:600px){
+
+}
+
+@media screen and (max-width: 600px){
+
+}
+
+img, embed, object, video {
+	max-width:100%;
+}
+.leftnav {
+  align-content: left;
+	font-style: normal;
+	min-width: 48px;
+	min-height: 48px;
+}
+
+.subheader {
+  text-align: right;
+  padding-right: 2%;
+}
+
+#selfpainting{
+	width:28%;
+	height: 28%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+#weddingwebsite{
+	width:30%;
+	height: 30%;
+	padding-right: 2%;
+}
+
+#sunset {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 45%;
+
+}
+
+#caliseascape{
+	width:28%;
+	height: 28%;
+	padding-right: 2%;
+}
+.navbutton {
+	min-width: 48px;
+	min-height: 48px;
+	width: 100%;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a {
+	color: black;
+
+}
+
+a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+a:visited {
+	color: brown;
+}
+
+li a{
+	display:block;
+}
+
+.pages{
+
+}
+
+/* .pages{
+	display: none;
+} */
