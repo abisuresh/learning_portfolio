@@ -3,8 +3,10 @@
   <head>
     <title> mockup portfolio </title>
     <meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
 
   <body>
@@ -14,8 +16,6 @@
     <div class=subheader>
       Front-end Web Developer
       <!-- <br> -->
-      <p></p> 
-      Graphic Designer
       <p></p>
       Artist
     </div>
@@ -29,7 +29,7 @@
           <ul>
             <div class="btn-group">
               <li><button class="navbutton"><a href="#home">Home</a></button></li>
-              <li><button class="navbutton"><a href="websites.html">Websites </a></button></li>
+              <li><button class="navbutton" onclick="openPage(event,'websites')">Websites </a></button></li>
               <li><button class="navbutton"><a href="#paintings">Paintings</a></button></li>
               <li><button class="navbutton"><a href="#photography">Photography </a></button></li>
               <li><button class="navbutton"><a href="#aboutme">About me</a></button></li>
@@ -45,24 +45,22 @@
     </div>
   </div>
 
-  <div class="flex-container vertical">
+  <!-- <div class="flex-container vertical">
     <div> </div>
     <div> </div>
 
-  </div>
+  </div> -->
 
+  <!-- <div id="websites">
+    Hello
+  </div> -->
 
-<h2>
-
-
-
-</h2>
 
 
   <div class="home">
-    <h3>
+    <h2>
       Featured Work
-    </h3>
+    </h2>
 
       <p></p>
 
@@ -97,6 +95,11 @@
     </div>
 
     <footer>
+      <div class="bottom">
+
+      </div>
+
+
     </footer>
 
   </body>

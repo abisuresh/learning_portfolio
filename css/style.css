@@ -1,15 +1,15 @@
 
 body {
-	/* background: blue; */
-	background-image:url("../bluesky.jpg");
-	height: 100%;
-	background-position: center;
+	background: black;
+	/* background-image:url("../bluesky.jpg"); */
+	/* height: 100%; */
+	/* background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover; */
 	margin: auto;
 	font-size: 100%;
   font-family: arial, sans-serif;
-	color: black;
+	color: white;
 
 }
 
@@ -21,13 +21,15 @@ h1{
 
 }
 
-h3{
+h2{
   text-align: center;
 }
 
 .horizontal {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: space-around;
 }
 
 @media screen and (min-width:600px){
@@ -35,6 +37,14 @@ h3{
 }
 
 @media screen and (max-width: 600px){
+	#sunset {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		width: 45%;
+		align-content: center;
+
+	}
 
 }
 
@@ -54,28 +64,29 @@ img, embed, object, video {
 }
 
 #selfpainting{
-	width:28%;
+	width:34%;
 	height: 28%;
 	padding-left: 2%;
 	padding-right: 2%;
 }
 
 #weddingwebsite{
-	width:30%;
+	width:33%;
 	height: 30%;
 	padding-right: 2%;
 }
 
 #sunset {
 	display: block;
-	margin-right: auto;
-	margin-left: auto;
+	margin-right: 60%;
+	margin-left: 25%;
 	width: 45%;
+	align-content: center;
 
 }
 
 #caliseascape{
-	width:28%;
+	width:32%;
 	height: 28%;
 	padding-right: 2%;
 }
@@ -87,6 +98,7 @@ img, embed, object, video {
 
 ul{
 	list-style-type: none;
+	margin-left: 1%;
 }
 
 a {
@@ -97,6 +109,7 @@ a {
 a:hover {
 	text-decoration: underline;
 	cursor: pointer;
+	background-color:gray;
 }
 
 a:visited {
@@ -108,6 +121,13 @@ li a{
 }
 
 .pages{
+	background: black;
+	font-family: century, sans-serif;
+	color: white;
+
+}
+
+.bottom {
 
 }
 
