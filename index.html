@@ -7,57 +7,60 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
   </head>
 
   <body>
-    <h1>
-      Abbi Suresh
-    </h1>
-    <div class=subheader>
-      Front-end Web Developer
-      <!-- <br> -->
-      <p></p>
-      Artist
-    </div>
+    <div class="flex-container header">
+
+      <div class="headerimage">
+        <img id="logo" src="img/logo.png">
+      </div>
+      <div class="headertext">
+        <h1>
+          Abbi Suresh
+        </h1>
+        <div class=subheader>
+          Front-end Web Developer
+          <!-- <br> -->
+          <p></p>
+          Artist
+        </div>
+
+      </div>
+    </div> 
 
     <hr>
 
-  <div class="flex-container horizontal">
-    <div class="navigation">
-      <nav>
-        <div class="leftnav">
-          <ul>
-            <div class="btn-group">
-              <li><button class="navbutton"><a href="#home">Home</a></button></li>
-              <li><button class="navbutton" onclick="openPage(event,'websites')">Websites </a></button></li>
-              <li><button class="navbutton"><a href="#paintings">Paintings</a></button></li>
-              <li><button class="navbutton"><a href="#photography">Photography </a></button></li>
-              <li><button class="navbutton"><a href="#aboutme">About me</a></button></li>
-              <li><button class="navbutton"><a href="#contact">Contact</a></button></li>
-            </div>
-          </ul>
-        </div>
-      </nav>
+    <div class="flex-container">
+      <div class="navigation">
+        <nav>
+          <div class="leftnav">
+            <ul>
+              <div class="btn-group">
+                <li><button class="navbutton"><a href="#home">Home</a></button></li>
+                <li><button class="navbutton"><a href="websites.html">Websites </a></button></li>
+                <li><button class="navbutton"><a href="paintings.html">Paintings</a></button></li>
+                <li><button class="navbutton"><a href="photography.html">Photography </a></button></li>
+                <li><button class="navbutton"><a href="aboutme.html">About me</a></button></li>
+                <li><button class="navbutton"><a href="contact.html">Contact</a></button></li>
+              </div>
+            </ul>
+          </div>
+        </nav>
+
+      </div>
+      <div class="headerimage">
+          <img id="sunset" src="img/sunset.jpg">
+      </div>
+    </div>
+
+    <div id="websites" class="pages">
 
     </div>
-    <div class="headerimage">
-          <img id="sunset" src="sunset.jpg">
-    </div>
-  </div>
-
-  <!-- <div class="flex-container vertical">
-    <div> </div>
-    <div> </div>
-
-  </div> -->
-
-  <!-- <div id="websites">
-    Hello
-  </div> -->
 
 
-
-  <div class="home">
+  <div class="main">
     <h2>
       Featured Work
     </h2>
@@ -65,32 +68,12 @@
       <p></p>
 
 
-      <img id="selfpainting" src="self_portrait_closeup.jpg">
+      <img id="selfpainting" src="img/self_portrait_closeup.jpg" class="images">
 
 
+      <a href="http://wedding.devinssuresh.com"><img id="weddingwebsite" src="img/weddingwebsitepic.png" class="images"></a>
 
-
-      <a href="http://wedding.devinssuresh.com"><img id="weddingwebsite" src="weddingwebsitepic.png"></a>
-
-      <img id="caliseascape" src="caliseascape.jpg">
-
-    </div>
-
-
-
-    <div id="paintings" class="pages">
-
-    </div>
-
-    <div id="photography" class="pages">
-
-    </div>
-
-    <div id="aboutme" class="pages">
-
-    </div>
-
-    <div class="contact">
+      <img id="caliseascape" src="img/caliseascape.jpg" class="images">
 
     </div>
 
@@ -101,6 +84,8 @@
 
 
     </footer>
+
+    <script src="js/main.js">
 
   </body>
 
