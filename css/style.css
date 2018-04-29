@@ -42,7 +42,7 @@ subheader{
 
 p {
 	font-size: medium;
-	text-align: center; 
+	text-align: center;
 
 }
 
@@ -63,6 +63,13 @@ p {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
+}
+
+.paintings{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+
 }
 
 @media screen and (max-width: 900px){
@@ -187,4 +194,46 @@ a:visited {
 	font-family: century, sans-serif;
 	color: white;
 
+}
+
+#patgf{
+	width:20%;
+	height: 50%;
+	padding-right: 2%;
+}
+
+#patgm{
+	width:20%;
+	height: 50%;
+	padding-right: 2%;
+}
+
+#adirondacks{
+	width:20%;
+	height: 50%;
+	padding-right: 2%;
+}
+
+#abstractworld{
+	width:20%;
+	height: 50%;
+	padding-right: 2%;
+}
+
+#selfportrait{
+	width:20%;
+	height: 50%;
+	padding-right: 2%;
+}
+
+#acadia{
+	width:20%;
+	height: 50%;
+	padding-right: 2%;
+}
+
+#adirondacks{
+	width:20%;
+	height: 50%;
+	padding-right: 2%;
 }
