@@ -26,7 +26,6 @@ h2{
 subheader{
 	font-family: arial, serif;
 	font-weight: 300;
-	/* padding-right: 2%; */
 }
 
 #logo {
@@ -42,6 +41,8 @@ subheader{
 }
 
 p {
+	font-size: medium;
+	text-align: center; 
 
 }
 
@@ -119,20 +120,6 @@ img, embed, object, video {
   padding-right: 2%;
 }
 
-/* #selfpainting{
-	/* max-width:34%; */
-	/* width: 30%;
-	height: auto;
-	padding-left: 2%;
-	padding-right: 2%;
-} */
-
-/* #weddingwebsite{
-	width:30%;
-	height: auto;
-	padding-right: 2%;
-} */
-
 .Feature1{
 	width:33%;
 	height: auto;
@@ -160,24 +147,6 @@ img, embed, object, video {
 	align-content: center;
 
 }
-/*
-#caliseascape{
-	width:30%;
-	height: 28%;
-	padding-right: 2%;
-} */
-
-/* .navbutton {
-	min-width: 48px;
-	min-height: 48px;
-	width: 100%;
-} */
-
-/* ul{
-	list-style-type: none;
-	margin-left: 1%;
-} */
-
 
 .leftnav a{
 	font-size: medium;
@@ -212,7 +181,6 @@ a:visited {
 	background-color:gray;
 	border: solid brown 1px;
 }
-
 
 .pages{
 	background: black;
