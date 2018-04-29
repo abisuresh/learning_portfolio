@@ -40,7 +40,7 @@ subheader{
 	display: flex;
 	flex-direction: row;
 }
-/*  */
+
 p {
 
 }
@@ -56,7 +56,6 @@ p {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	/* align-content: space-around; */
 }
 
 .features{
@@ -105,12 +104,14 @@ img, embed, object, video {
 }
 
 .leftnav {
-	padding-top: 10%;
+	display: block;
+	height: 100%;
+	padding-top: 2%;
   align-content: left;
 	font-style: normal;
-	min-width: 48px;
-	min-height: 48px;
-	max-width: 90%;
+	max-width: auto;
+	overflow-x:hidden;
+	background-color: black;
 }
 
 .subheader {
@@ -165,19 +166,30 @@ img, embed, object, video {
 	height: 28%;
 	padding-right: 2%;
 } */
-.navbutton {
+
+/* .navbutton {
 	min-width: 48px;
 	min-height: 48px;
 	width: 100%;
-}
+} */
 
-ul{
+/* ul{
 	list-style-type: none;
 	margin-left: 1%;
-}
+} */
 
+
+.leftnav a{
+	font-size: medium;
+	padding: 1% 1% 1% 1%;
+
+}
 a {
 	color: black;
+	border: solid black 1px;
+	background-color: white;
+	min-width: 48px;
+	min-height: 48px;
 
 }
 
@@ -191,18 +203,16 @@ a:visited {
 	color: brown;
 }
 
-.btn-group button {
+.leftnav a {
 	background-color:white;
 	border: solid blue 1px;
+	display:block;
 }
-.btn-group button:hover{
+.leftnav a:hover{
 	background-color:gray;
 	border: solid brown 1px;
 }
 
-li a{
-	display:block;
-}
 
 .pages{
 	background: black;
