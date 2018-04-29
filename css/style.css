@@ -40,6 +40,13 @@ subheader{
 	flex-direction: row;
 }
 
+.headerlink{
+	text-align: left;
+	padding-top: 1%;
+	height: 100%;
+	font-size: large;
+}
+
 p {
 	font-size: medium;
 	text-align: center;
@@ -50,6 +57,7 @@ p {
 	width: 100%;
 	float: right;
 	justify-content: flex-end;
+	font-size: medium; 
 
 }
 
