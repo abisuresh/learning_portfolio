@@ -1,15 +1,11 @@
 
 body {
 	background: black;
-	/* background-image:url("../bluesky.jpg"); */
-	/* height: 100%; */
-	/* background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover; */
 	margin: auto;
 	font-size: 100%;
-  font-family: arial, sans-serif;
+  font-family: garamond, sans-serif;
 	color: white;
+	overflow-x: hidden;
 
 }
 
@@ -23,6 +19,14 @@ h1{
 
 h2{
   text-align: center;
+	font-size: xx-large;
+}
+
+
+subheader{
+	font-family: arial, serif;
+	font-weight: 300;
+	/* padding-right: 2%; */
 }
 
 #logo {
@@ -30,44 +34,68 @@ h2{
 	height: auto;
 	padding-top:2%;
 	padding-left:4%;
-	/* float: left;
-	text-align: left; */
 }
 
 .header{
 	display: flex;
 	flex-direction: row;
 }
+/*  */
+p {
+
+}
 
 .headertext {
 	width: 100%;
 	float: right;
 	justify-content: flex-end;
-	padding-right:2%;
+
 }
 
 .flex-container {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	align-content: space-around;
+	/* align-content: space-around; */
 }
 
-
-@media screen and (min-width:768px){
-
-
+.features{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
 }
 
 @media screen and (max-width: 900px){
 	.images {
-		max-width: 30%;
+		max-width: 100%;
 	}
 
 	.navbutton {
 		min-width: 48px;
 		min-height: 48px;
-		max-width: 100%;
+		max-width: 90%;
+	}
+
+	h1{
+		font-size: x-large;
+
+	}
+
+	h2{
+	  text-align: center;
+		font-size: large;
+		font-family: garamond, serif;
+		font-weight: 500;
+	}
+
+	subheader{
+		font-family: arial, serif;
+		font-weight: 300;
+		font-size: medium;
+	}
+
+	.headertext{
+		padding-right: 2%;
 	}
 
 }
@@ -75,12 +103,14 @@ h2{
 img, embed, object, video {
 	max-width:100%;
 }
+
 .leftnav {
 	padding-top: 10%;
   align-content: left;
 	font-style: normal;
 	min-width: 48px;
 	min-height: 48px;
+	max-width: 90%;
 }
 
 .subheader {
@@ -88,33 +118,53 @@ img, embed, object, video {
   padding-right: 2%;
 }
 
-#selfpainting{
-	max-width:34%;
+/* #selfpainting{
+	/* max-width:34%; */
+	/* width: 30%;
+	height: auto;
+	padding-left: 2%;
+	padding-right: 2%;
+} */
+
+/* #weddingwebsite{
+	width:30%;
+	height: auto;
+	padding-right: 2%;
+} */
+
+.Feature1{
+	width:33%;
 	height: auto;
 	padding-left: 2%;
 	padding-right: 2%;
 }
 
-#weddingwebsite{
+.Feature2 {
 	width:33%;
-	height: 30%;
+	height: auto;
+	padding-right: 2%;
+
+}
+
+.Feature3{
+	width:33%;
+	height: auto;
 	padding-right: 2%;
 }
 
 #sunset {
-	/* display: block; */
 	margin-right: 60%;
 	margin-left: 25%;
 	width: 45%;
 	align-content: center;
 
 }
-
+/*
 #caliseascape{
-	width:32%;
+	width:30%;
 	height: 28%;
 	padding-right: 2%;
-}
+} */
 .navbutton {
 	min-width: 48px;
 	min-height: 48px;
@@ -160,11 +210,3 @@ li a{
 	color: white;
 
 }
-
-.bottom {
-
-}
-
-/* .pages{
-	display: none;
-} */

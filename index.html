@@ -14,7 +14,7 @@
     <div class="flex-container header">
 
       <div class="headerimage">
-        <img id="logo" src="img/logo.png">
+        <img id="logo" src="img/logo.png" alt="mylogo">
       </div>
       <div class="headertext">
         <h1>
@@ -22,13 +22,12 @@
         </h1>
         <div class=subheader>
           Front-end Web Developer
-          <!-- <br> -->
-          <p></p>
+          <br>
           Artist
         </div>
 
       </div>
-    </div> 
+    </div>
 
     <hr>
 
@@ -36,56 +35,71 @@
       <div class="navigation">
         <nav>
           <div class="leftnav">
-            <ul>
-              <div class="btn-group">
-                <li><button class="navbutton"><a href="#home">Home</a></button></li>
-                <li><button class="navbutton"><a href="websites.html">Websites </a></button></li>
-                <li><button class="navbutton"><a href="paintings.html">Paintings</a></button></li>
-                <li><button class="navbutton"><a href="photography.html">Photography </a></button></li>
-                <li><button class="navbutton"><a href="aboutme.html">About me</a></button></li>
-                <li><button class="navbutton"><a href="contact.html">Contact</a></button></li>
-              </div>
-            </ul>
+            <div class="btn-group">
+              <ul>
+
+                <li><a href="#home"><button class="navbutton">Home</button></a></li>
+                <li><a href="websites.html"><button class="navbutton">Websites</button></a></li>
+                <li><a href="paintings.html"><button class="navbutton">Paintings</button></a></li>
+                <li><a href="photography.html"><button class="navbutton">Photography</button></a></li>
+                <li><a href="aboutme.html"><button class="navbutton">About me</button></a></li>
+                <li><a href="contact.html"><button class="navbutton">Contact</button></a></li>
+
+              </ul>
+            </div>
           </div>
         </nav>
 
       </div>
       <div class="headerimage">
-          <img id="sunset" src="img/sunset.jpg">
+          <img id="sunset" src="img/sunset.jpg" alt="Grand Canyon Sunset">
+
       </div>
-    </div>
-
-    <div id="websites" class="pages">
-
     </div>
 
 
   <div class="main">
     <h2>
+
       Featured Work
+
     </h2>
 
-      <p></p>
+    <div class="flex-cont features">
 
+      <div class="Feature1">
+        <figure>
+          <img id="selfpainting" src="img/self_portrait_closeup.jpg" class="images" alt="Self Portrait">
+          <figcaption>Self Portrait</figcaption>
+        </figure>
+      </div>
 
-      <img id="selfpainting" src="img/self_portrait_closeup.jpg" class="images">
+      <div class="Feature2">
+        <figure>
+          <a href="http://wedding.devinssuresh.com"><img id="weddingwebsite" src="img/weddingwebsitepic.png" alt="Wedding Website" class="images"></a>
+          <figcaption>Wedding Website</figcaption>
+        </figure>
+      </div>
 
-
-      <a href="http://wedding.devinssuresh.com"><img id="weddingwebsite" src="img/weddingwebsitepic.png" class="images"></a>
-
-      <img id="caliseascape" src="img/caliseascape.jpg" class="images">
-
+      <div class="Feature3">
+        <figure>
+          <img id="caliseascape" src="img/caliseascape.jpg" class="images" alt="California Seascape">
+          <figcaption>California Seascape </figcaption>
+        </figure>
+      </div>
     </div>
+
+  </div>
 
     <footer>
       <div class="bottom">
 
       </div>
 
-
     </footer>
 
     <script src="js/main.js">
+    </script>
 
   </body>
 
