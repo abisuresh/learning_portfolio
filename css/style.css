@@ -6,8 +6,8 @@ body {
   font-family: garamond, sans-serif;
 	color: white;
 	overflow-x: hidden;
-
 }
+
 
 h1{
   font-family: century, serif;
@@ -16,6 +16,7 @@ h1{
   padding-right: 2%;
 
 }
+
 
 h2{
   text-align: center;
@@ -28,6 +29,7 @@ subheader{
 	font-weight: 300;
 }
 
+
 #logo {
 	width:25%;
 	height: auto;
@@ -35,10 +37,12 @@ subheader{
 	padding-left:4%;
 }
 
+
 .header{
 	display: flex;
 	flex-direction: row;
 }
+
 
 .headerlink{
 	text-align: left;
@@ -47,19 +51,20 @@ subheader{
 	font-size: large;
 }
 
+
 p {
 	font-size: medium;
 	text-align: center;
-
 }
+
 
 .headertext {
 	width: 100%;
 	float: right;
 	justify-content: flex-end;
-	font-size: medium; 
-
+	font-size: medium;
 }
+
 
 .flex-container {
 	display: flex;
@@ -67,11 +72,13 @@ p {
 	flex-wrap: nowrap;
 }
 
+
 .features{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 }
+
 
 .paintings{
 	display: flex;
@@ -80,10 +87,12 @@ p {
 
 }
 
+
 @media screen and (max-width: 900px){
 	.images {
 		max-width: 100%;
 	}
+
 
 	.navbutton {
 		min-width: 48px;
@@ -91,10 +100,11 @@ p {
 		max-width: 90%;
 	}
 
+
 	h1{
 		font-size: x-large;
-
 	}
+
 
 	h2{
 	  text-align: center;
@@ -103,21 +113,29 @@ p {
 		font-weight: 500;
 	}
 
+
 	subheader{
 		font-family: arial, serif;
 		font-weight: 300;
 		font-size: medium;
 	}
 
+
 	.headertext{
 		padding-right: 2%;
 	}
 
+
 }
 
-img, embed, object, video {
+
+img,
+embed,
+object,
+video {
 	max-width:100%;
 }
+
 
 .leftnav {
 	display: block;
@@ -130,10 +148,12 @@ img, embed, object, video {
 	background-color: black;
 }
 
+
 .subheader {
   text-align: right;
   padding-right: 2%;
 }
+
 
 .Feature1{
 	width:33%;
@@ -142,12 +162,13 @@ img, embed, object, video {
 	padding-right: 2%;
 }
 
+
 .Feature2 {
 	width:33%;
 	height: auto;
 	padding-right: 2%;
-
 }
+
 
 .Feature3{
 	width:33%;
@@ -155,54 +176,60 @@ img, embed, object, video {
 	padding-right: 2%;
 }
 
+
 #sunset {
 	margin-right: 60%;
 	margin-left: 25%;
 	width: 45%;
 	align-content: center;
-
 }
+
 
 .leftnav a{
 	font-size: medium;
 	padding: 1% 1% 1% 1%;
-
 }
+
+
 a {
 	color: black;
 	border: solid black 1px;
 	background-color: white;
 	min-width: 48px;
 	min-height: 48px;
-
 }
+
 
 a:hover {
 	text-decoration: underline;
 	cursor: pointer;
-
 }
+
 
 a:visited {
 	color: brown;
 }
+
 
 .leftnav a {
 	background-color:white;
 	border: solid blue 1px;
 	display:block;
 }
+
+
 .leftnav a:hover{
 	background-color:gray;
 	border: solid brown 1px;
 }
 
+
 .pages{
 	background: black;
 	font-family: century, sans-serif;
 	color: white;
-
 }
+
 
 #patgf{
 	width:20%;
@@ -210,11 +237,13 @@ a:visited {
 	padding-right: 2%;
 }
 
+
 #patgm{
 	width:20%;
 	height: 50%;
 	padding-right: 2%;
 }
+
 
 #adirondacks{
 	width:20%;
@@ -222,11 +251,13 @@ a:visited {
 	padding-right: 2%;
 }
 
+
 #abstractworld{
 	width:20%;
 	height: 50%;
 	padding-right: 2%;
 }
+
 
 #selfportrait{
 	width:20%;
@@ -234,11 +265,13 @@ a:visited {
 	padding-right: 2%;
 }
 
+
 #acadia{
 	width:20%;
 	height: 50%;
 	padding-right: 2%;
 }
+
 
 #adirondacks{
 	width:20%;
