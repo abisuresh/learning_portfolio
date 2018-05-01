@@ -3,13 +3,13 @@ body {
 	background: black;
 	margin: auto;
 	font-size: 100%;
-  font-family: garamond, sans-serif;
+	font-family: garamond, sans-serif;
 	color: white;
 	overflow-x: hidden;
 }
 
 
-h1{
+h1 {
   font-family: century, serif;
 	font-weight: bold;
   text-align: right;
@@ -18,13 +18,13 @@ h1{
 }
 
 
-h2{
+h2 {
   text-align: center;
 	font-size: xx-large;
 }
 
 
-subheader{
+subheader {
 	font-family: arial, serif;
 	font-weight: 300;
 }
@@ -38,13 +38,13 @@ subheader{
 }
 
 
-.header{
+.header {
 	display: flex;
 	flex-direction: row;
 }
 
 
-.headerlink{
+.headerlink {
 	text-align: left;
 	padding-top: 1%;
 	height: 100%;
@@ -73,14 +73,14 @@ p {
 }
 
 
-.features{
+.features {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 }
 
 
-.paintings{
+.paintings {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -88,7 +88,7 @@ p {
 }
 
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
 	.images {
 		max-width: 100%;
 	}
@@ -101,27 +101,27 @@ p {
 	}
 
 
-	h1{
+	h1 {
 		font-size: x-large;
 	}
 
 
-	h2{
-	  text-align: center;
+	h2 {
+		text-align: center;
 		font-size: large;
 		font-family: garamond, serif;
 		font-weight: 500;
 	}
 
 
-	subheader{
+	subheader {
 		font-family: arial, serif;
 		font-weight: 300;
 		font-size: medium;
 	}
 
 
-	.headertext{
+	.headertext {
 		padding-right: 2%;
 	}
 
@@ -153,7 +153,7 @@ video {
 }
 
 
-.Feature1{
+.Feature1 {
 	width:33%;
 	height: auto;
 	padding-left: 2%;
@@ -168,7 +168,7 @@ video {
 }
 
 
-.Feature3{
+.Feature3 {
 	width:33%;
 	height: auto;
 	padding-right: 2%;
@@ -183,7 +183,7 @@ video {
 }
 
 
-.leftnav a{
+.leftnav a {
 	font-size: medium;
 	padding: 1% 1% 1% 1%;
 }
@@ -216,7 +216,7 @@ a:visited {
 }
 
 
-.leftnav a:hover{
+.leftnav a:hover {
 	background-color:gray;
 	border: solid brown 1px;
 }
@@ -229,28 +229,28 @@ a:visited {
 }
 
 
-#patgf{
+#patgf {
 	width:20%;
 	height: 50%;
 	padding-right: 2%;
 }
 
 
-#patgm{
+#patgm {
 	width:20%;
 	height: 50%;
 	padding-right: 2%;
 }
 
 
-#adirondacks{
+#adirondacks {
 	width:20%;
 	height: 50%;
 	padding-right: 2%;
 }
 
 
-#abstractworld{
+#abstractworld {
 	width:20%;
 	height: 50%;
 	padding-right: 2%;
