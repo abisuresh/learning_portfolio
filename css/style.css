@@ -141,9 +141,7 @@ video {
 	display: block;
 	height: 100%;
 	padding-top: 2%;
-  align-content: left;
 	font-style: normal;
-	max-width: auto;
 	overflow-x:hidden;
 	background-color: black;
 }
