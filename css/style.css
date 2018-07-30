@@ -276,3 +276,19 @@ a:visited {
 	height: 50%;
 	padding-right: 2%;
 }
+
+#aboutme{
+	font-size: large;
+	text-align: center;
+}
+
+.contact{
+	font-size: large;
+	text-align: center;
+
+}
+
+.website{
+	font-size: large;
+	text-align: center;
+}
